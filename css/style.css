@@ -1,0 +1,416 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
+
+body {
+    width: 1600px;
+    height: 3541px;
+    margin: 0 auto;
+    background-color: azure;
+}
+
+header {
+    background: url(../img/bg-heder.jpeg);
+    height: 881px;
+    width: inherit;
+    text-align: center;
+}
+
+.header_menu {
+    text-align: right;
+    margin-right: 170px;
+    padding-top: 50px;
+}
+
+.login_list li,
+a {
+    list-style: none;
+    display: inline-block;
+    font-size: 14px;
+    font-family: "Lato", sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-shadow: 0px 1px 40px rgba(1, 1, 1, 0.55);
+    text-transform: uppercase;
+    padding-right: 20px;
+    text-decoration: none;
+}
+
+.login_list li a:active {
+    transform: scale(0.95);
+}
+
+.button_menu {
+    display: inline-block;
+    background: none;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+.button_menu:active {
+    transform: scale(0.85);
+    outline: none;
+}
+
+.header_title p:first-child {
+    font-size: 36px;
+    font-family: "Times New Roman", sans-serif;
+    color: rgba(255, 255, 255, 0.702);
+    font-weight: bold;
+    font-style: italic;
+    text-shadow: 0px 1px 40px rgba(1, 1, 1, 0.55);
+    padding-top: 275px;
+}
+
+.header_title h1 {
+    font-size: 100px;
+    font-family: "Lato", sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-shadow: 0px 1px 40px rgba(1, 1, 1, 0.55);
+}
+
+.button_started {
+    background: none;
+    border: 2px solid #fff;
+    width: 255px;
+    height: 65px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-family: "Myriad Pro", sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-transform: uppercase;
+    margin: 40px 0;
+}
+
+.button_started:hover {
+    box-shadow: 0 0 70px rgba(0, 0, 0, 0.5);
+    transform: scale(1.07);
+    transition: all 0.5s;
+}
+
+.header_title p:last-child {
+    font-size: 14px;
+    font-family: "Lato", sans-serif;
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 1px 40px rgba(1, 1, 1, 0.55);
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.section1 {
+    background-color: #fff;
+    text-align: center;
+    height: 435px;
+}
+
+.section1_icons {
+    padding-top: 100px;
+    display: inline-block;
+    width: 365px;
+}
+
+hr {
+    width: 85px;
+    margin-top: -8px;
+    height: 1px;
+    border: 0;
+    background-color: rgb(255, 0, 0);
+    -webkit-transition: 2s ease;
+}
+
+.section1 p {
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-weight: 100;
+}
+
+.section1 h3 {
+    font-size: 18px;
+    font-family: "Lato", sans-serif;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+.section1_icons:hover {
+    padding-top: 30px;
+    padding-bottom: 10px;
+    transition: box-shadow .3s;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    background: #fff;
+    box-shadow: 0 0 30px rgba(33, 33, 33, 1.2);
+}
+
+.section2 {
+    height: 880px;
+    background-color: #f7f7f7;
+}
+
+.iphone_image {
+    display: inline-block;
+    width: 535px;
+    margin: 107px 155px 0px 200px;
+}
+
+.section2_content {
+    width: 501px;
+    height: inherit;
+    display: inline-block;
+}
+
+.section2_content img {
+    padding-bottom: 280px;
+    cursor: pointer;
+}
+
+.section2_content h3 {
+    font-size: 18px;
+    font-family: "Lato", sans-serif;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+.section2_content p {
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    padding-bottom: 15px;
+    line-height: 1.7;
+}
+
+.section2_content hr {
+    margin: -8px auto 0 0;
+}
+
+.section3 {
+    background: url(../img/bg-2.jpeg);
+    height: 460px;
+    text-align: center;
+    padding-top: 75px
+}
+
+.etc img {
+    display: inline-block;
+}
+
+.etc img:nth-child(2),
+.etc img:nth-child(3) {
+    opacity: 0.3;
+}
+
+.section3 h2 {
+    font-size: 30px;
+    font-family: "Lato", sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    line-height: 1, 2;
+    opacity: 0.2;
+    font-weight: 250;
+}
+
+.section3 p {
+    font-size: 18px;
+    margin-bottom: 40px;
+    font-family: "Lato", sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    line-height: 1, 2;
+    opacity: 0.2;
+}
+
+.section4 {
+    height: 810px;
+    text-align: center;
+    padding-top: 80px;
+    background-color: #fff;
+}
+
+.food_list {
+    margin-top: 40px;
+    margin-bottom: 10px;
+    list-style: none;
+    height: 450px;
+}
+
+.food_list li {
+    display: inline-block;
+    width: 320px;
+    height: 225px;
+    transition: 0.5s ease;
+}
+
+.food_list:hover li {
+    opacity: 0.8;
+}
+
+.food_list li:hover {
+    transform: scale(1.05);
+    border-radius: 10px;
+    opacity: 1;
+    transition: all 1s;
+}
+
+.food_list li:nth-child(1) {
+    background: url(../img/italian.png);
+    background-size: 100%;
+}
+
+.food_list li:nth-child(2) {
+    background: url(../img/indian.png);
+    margin-left: -4px;
+    background-size: 100%;
+}
+
+.food_list li:nth-child(3) {
+    background: url(../img/french.png);
+    margin-left: -4px;
+    background-size: 100%;
+}
+
+.food_list li:nth-child(4) {
+    background: url(../img/steakhouse.png);
+    margin-left: -4px;
+    background-size: 100%;
+}
+
+.food_list li:nth-child(5) {
+    background: url(../img/seaFood.png);
+    margin-left: -4px;
+    background-size: 100%;
+}
+
+.food_list li:nth-child(6) {
+    background: url(../img/Sushi.png);
+    background-size: 100%;
+}
+
+.food_list li:nth-child(7) {
+    background: url(../img/Mexican.png);
+    margin-left: -4px;
+    background-size: 100%;
+}
+
+.food_list li:nth-child(8) {
+    background: url(../img/Chinese.png);
+    margin-left: -4px;
+    background-size: 100%;
+}
+
+.food_list li:nth-child(9) {
+    background: url(../img/pazza.png);
+    margin-left: -4px;
+    background-size: 100%;
+}
+
+.food_list li:nth-child(10) {
+    background: url(../img/Americah.png);
+    margin-left: -4px;
+    background-size: 100%;
+}
+
+.food_list p {
+    font-size: 26px;
+    font-family: "Times New Roman", sans-serif;
+    color: rgba(255, 255, 255, 0.802);
+    font-weight: bold;
+    font-style: italic;
+    padding-top: 75px;
+    padding-bottom: 15px;
+}
+
+.food_list h3 {
+    font-size: 45px;
+    font-family: "Lato", sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    text-shadow: 0px 1px 40px rgba(1, 1, 1, 0.55);
+    text-transform: uppercase;
+    margin-top: -10px;
+}
+
+.statistic_list li {
+    display: inline-block;
+    width: 250px;
+}
+
+.statistic_list h3 {
+    font-size: 36px;
+    font-family: "Lato", sans-serif;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+.statistic_list p {
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+    color: #444444;
+    margin-top: -20px
+}
+
+footer {
+    background: #f7f7f7;
+    height: 93px;
+    padding-top: 40px;
+}
+
+footer p:first-child::before {
+    content: "\00a9 ";
+}
+
+footer p {
+    display: inline-block;
+    margin-right: 350px;
+    margin-left: 300px;
+}
+
+footer p:first-child {
+    font-size: 14px;
+    font-family: "Lato", sans-serif;
+    color: rgba(139, 139, 139, 0.502);
+    text-align: center;
+    
+}
+
+footer p:last-child {
+    font-size: 14px;
+    font-family: "Lato", sans-serif;
+    color: rgb(139, 139, 139);
+    margin-right: 150px;
+}
+
+.color {
+    font-size: 14px;
+    font-family: "Lato", sans-serif;
+    color: rgba(139, 139, 139, 0.502);
+}
+
+.section2_content:hover hr {
+    width: 250px;
+    transition: all 2s;
+}
+
+.section4:hover hr {
+    width: 200px;
+    transition: all 2s;
+}
+
+.section1_icons:first-child:hover hr {
+    width: 120px;
+    transition: all 1.5s;
+}
+
+.section1_icons:nth-child(2):hover hr {
+    width: 133px;
+    transition: all 1.5s;
+}
+
+.section1_icons:last-child:hover hr {
+    width: 100px;
+    transition: all 1.5s;
+}
